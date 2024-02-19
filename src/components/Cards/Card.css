@@ -1,0 +1,67 @@
+.Card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 100%;
+    font-size: large;
+}
+
+
+
+.SeniorAF-Card {
+    margin: 20px;
+    width: 600px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(225, 238, 177);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.SeniorAF-Card img {
+    width: 100%;
+}
+
+.SeniorAM-Card{
+    margin: 20px;
+    width: 600px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(225, 238, 177);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.SeniorAM-Card img {
+    width: 100%;
+}
+
+.SeniorB-Card{
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(225, 238, 177);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.SeniorC-Card{
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(177, 214, 238);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}

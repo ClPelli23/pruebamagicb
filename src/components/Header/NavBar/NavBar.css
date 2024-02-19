@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+   
+    
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.461);
+    backdrop-filter: blur(20px);
+   
+
+    position: fixed; /*Hace que la barra de navegación sea fija en la parte superior  */
+    width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+    z-index: 600; /* Puedes ajustar el índice z según sea necesario */
+    top: 0; 
+    
+
+}
+  
+.brand {
+    margin-top: -5px;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+  }
+
+.brand span {
+  color: #E8DF0A;
+  }
+
+  .menu a {
+    color: #f9f9f9;
+    text-decoration: none;
+    padding: 0px;
+  }
+  
+  .menu{
+    display: flex;
+    
+    width: 50%; 
+    justify-content: space-around;
+  }
+  
+  .active {
+    color: #E8DF0A;
+  }
+  
+  a {
+    font-weight: 500;
+    /* color: seagreen; */
+    text-decoration: inherit;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  menu a:hover {
+    background-color: aqua;
+    color: #535bf2;
+  }

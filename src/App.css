@@ -1,0 +1,91 @@
+#root {
+  max-width: 100%;
+  margin: auto;
+  /* padding: 0.2rem; */
+  /* margin-top: -15px; */
+  
+}
+
+.body {
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.paginas{
+  background-color: #ece760;
+  padding-top: 85px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+hr {
+  margin: 0px;
+  border: 1px thick #8888885e;
+}
+
+/* .card {
+  padding: 1em;
+  position: relative;
+  /*top:290px;
+  /*right: 660px;*/
+ /* flex-direction: column; 
+*/
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.logoMenu{
+  color: aliceblue;
+
+}
+
+.Header{
+  color:rgb(11, 12, 12);
+ /*  background-color: rgba(255, 255, 255, 0.8); /* Añade un fondo semi-transparente */
+ /*   backdrop-filter: blur(1000px); /* Aplica el efecto de desenfoque */
+ /*   padding: 10px; */
+      
+
+}
+
+.Headline-container{
+  padding: 0px;
+  padding-left: 15px;
+  padding-bottom: 150px;
+  padding-right: 15px;
+  
+}
+
+

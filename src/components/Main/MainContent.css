@@ -1,0 +1,36 @@
+.main {
+    margin: auto;
+    width: 80vw; /*con esto logramos que se separe de la izquierda */
+    height: 80vh; 
+    /* display: grid;  */
+    grid-template-columns: repeat(2,1fr); /* fraccionamos en dos fracciones */
+    align-items: center; /*Lo alineamos verticalmente*/
+    justify-items: center;
+    padding: 15px;
+  }
+
+  .main-title {
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+
+.subtitle {
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.fotoPortada {
+  align-items: center;
+  justify-content: center;
+  image-rendering: auto;
+  display: flex;
+  width: 100%;
+
+}
+
+img {
+  border-radius: 20px;
+}

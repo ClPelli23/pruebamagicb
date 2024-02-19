@@ -1,0 +1,75 @@
+.root {
+    display: flex;
+}
+.post-card {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 16px;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px;
+}
+
+.post-card-container{
+    margin: 20px;
+
+}
+
+.NotCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.Not1-Card {
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(177, 214, 238);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.Not2-Card{
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(177, 214, 238);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.SeniorB-Card{
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(177, 214, 238);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+
+.SeniorC-Card{
+    margin: 20px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px #33333333;
+    background-color: rgb(177, 214, 238);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}

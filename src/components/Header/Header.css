@@ -1,0 +1,6 @@
+.Navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Añade un fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Aplica el efecto de desenfoque */
+    padding: 0px;
+    /*position: fixed;*/
+}
